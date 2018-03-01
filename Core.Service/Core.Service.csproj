@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Interfaces\Interface1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.DataAccess\Core.DataAccess.csproj" />
+    <ProjectReference Include="..\Core.ViewModel\Core.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
